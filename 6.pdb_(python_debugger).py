@@ -6,7 +6,7 @@ z = 3
 
 result_one = y + z
 
-
+pdb.set_trace() # Pauses operation mid script
 
 result_two = x + y
 
