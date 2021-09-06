@@ -1,4 +1,6 @@
 # Timing your code
+# time module
+# timeit module
 
 def func_one(n):
     '''
@@ -37,3 +39,19 @@ end_time = time.time() - start_time
 print(end_time)
 
 ##############################################################
+
+import timeit
+
+timeit.timeit()
+
+stmt = '''  
+func_on(100)
+'''
+
+setup = '''
+def func_one(n):
+    return [str(num) for num in range(n)]
+'''
+
+
+timeit.timeit(stmt, setup, number=10000)
