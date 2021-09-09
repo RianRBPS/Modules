@@ -53,5 +53,4 @@ def func_one(n):
     return [str(num) for num in range(n)]
 '''
 
-
-timeit.timeit(stmt, setup, number=10000)
+timeit.timeit(stmt,setup,number=100000)
