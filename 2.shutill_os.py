@@ -2,9 +2,9 @@
 
 n = int(input('_'))
 if n == 2:
-    f = open('practice.txt','w+')
-    f.write('This is a test string')
-    f.close()
+        f = open('practice.txt','w+')
+        f.write('This is a test string')
+        f.close()
 else:
     print('Arquivo não criado')
 

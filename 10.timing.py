@@ -53,4 +53,5 @@ def func_one(n):
     return [str(num) for num in range(n)]
 '''
 
-timeit.timeit(stmt,setup,number=100000)
+#timeit.timeit(stmt,setup,number=100000)
+
